@@ -1,0 +1,13 @@
+.form-control {
+  background-color: var(--primary-font-color);
+  border-color: var(--primary-font-color);
+  border-radius: 4px;
+  max-width: 500px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.form-control::placeholder {
+  text-align: center;
+  color: #7a77aa;
+}
