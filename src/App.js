@@ -1,4 +1,5 @@
-import Dictionary from "./Dictionary"
+import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 import logo from "./logo.png";
 import "./App.css";
@@ -20,6 +21,9 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );
