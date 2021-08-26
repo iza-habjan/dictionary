@@ -9,5 +9,5 @@
 
 .form-control::placeholder {
   text-align: center;
-  color: #7a77aa;
+  color: var(--secondary-font-color);
 }
