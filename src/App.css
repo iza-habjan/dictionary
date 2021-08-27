@@ -13,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--primary-font-color);
+  font-family: var(--main-font);
 }
 
 .App-header ul {
