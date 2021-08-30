@@ -8,16 +8,18 @@ export default function Meaning(props) {
   console.log(props.meaning);
   return (
     <div className="Meaning">
-      <div className="border border-3">
+      <div className="border border-2 rounded">
         <h3>{props.meaning.partOfSpeech}</h3>
         {props.meaning.definitions.map(function (definition, index) {
           return (
             <div className="meanings">
               <div key={index}>
                 <p>
-                  <strong>Definition:</strong> {definition.definition}
+                  <div className="definition">{definition.definition}</div>
                   <br />
-                  <strong>Example:</strong> <em>{definition.example}</em>
+                  <div className="example">
+                    <em>{definition.example}</em>
+                  </div>
                   <br />
                   <Synonyms synonyms={definition.synonyms} />
                 </p>

@@ -1,10 +1,18 @@
 .Results h1 {
   font-size: 40px;
   font-weight: 400;
+  margin-bottom: 0;
+}
+
+.Results h2 {
+  margin-bottom: 0;
 }
 
 .Results ul {
-  margin-bottom: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
 }
 
 .Definition {
@@ -14,13 +22,12 @@
 .line {
   color: var(--primary-font-color);
   opacity: 100%;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
 section {
-  border-color: pink;
   border: 10px;
-  padding: 20px;
+  padding: 20px 100px;
   border-radius: 5px;
 }
