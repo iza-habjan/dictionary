@@ -11,10 +11,10 @@ export default function Results(props) {
       <div className="Results">
         <hr className="line"></hr>
         <ul>
-          <li>
+          <li className="word">
             <h1>{props.results.word}</h1>
           </li>
-          <li>
+          <li className="word">
             {props.results.phonetics.map(function (phonetic, index) {
               return (
                 <span key={index}>
@@ -28,9 +28,9 @@ export default function Results(props) {
         <br />
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>

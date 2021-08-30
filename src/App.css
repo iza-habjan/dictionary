@@ -16,7 +16,7 @@
   font-family: var(--main-font);
 }
 
-.App-header ul {
+.App ul {
   list-style: none;
   display: inline-flex;
   padding: 30px 0 20px 0;
