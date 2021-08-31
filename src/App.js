@@ -19,7 +19,7 @@ export default function App() {
           </ul>
         </header>
         <main>
-          <Dictionary defaultKeyword="acceptance" />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer>
           <Footer />

@@ -4,6 +4,7 @@ export default function Photos(props) {
   if (props.photos) {
     return (
       <section className="Photos">
+        <hr></hr>
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
@@ -19,6 +20,7 @@ export default function Photos(props) {
             );
           })}
         </div>
+        <hr></hr>
       </section>
     );
   } else {
