@@ -37,6 +37,12 @@
     padding: 10px;
     border-radius: 5px;
   }
+
+  .Footer,
+  .slash {
+    padding-bottom: 15px;
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 414px) {
