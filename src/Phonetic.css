@@ -1,7 +1,6 @@
 .word {
   list-style: none;
   display: inline-flex;
-  padding-right: 80px;
 }
 
 #text {
