@@ -70,6 +70,10 @@
     font-size: 20px;
   }
 
+  .Audio button {
+    font-size: 20px;
+  }
+
   .definition,
   .example {
     font-size: 15px;
