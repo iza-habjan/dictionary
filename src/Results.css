@@ -20,9 +20,7 @@
 }
 
 .line {
-  color: var(--primary-color);
-  opacity: 100%;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
