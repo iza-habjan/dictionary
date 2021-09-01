@@ -3,8 +3,8 @@ form {
 }
 
 .form-control {
-  background-color: var(--primary-font-color);
-  border-color: var(--primary-font-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   border-radius: 4px;
   max-width: 500px;
   height: 50px;
@@ -13,5 +13,5 @@ form {
 
 .form-control::placeholder {
   text-align: center;
-  color: var(--secondary-font-color);
+  color: var(--secondary-color);
 }

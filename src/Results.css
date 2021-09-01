@@ -16,11 +16,11 @@
 }
 
 .Definition {
-  color: var(--primary-font-color);
+  color: var(--primary-color);
 }
 
 .line {
-  color: var(--primary-font-color);
+  color: var(--primary-color);
   opacity: 100%;
   width: 80%;
   margin: 0 auto;

@@ -1,9 +1,11 @@
 .Meaning h3 {
   text-align: initial;
+  color: var(--background);
 }
 
 .meanings p {
   margin-bottom: 0;
+  color: var(--background);
 }
 
 .definition {
@@ -23,7 +25,7 @@
 
 .border {
   padding: 15px;
-  background-color: var(--secondary-font-color);
+  background-color: var(--primary-color);
 }
 
 .meanings {

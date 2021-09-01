@@ -1,14 +1,14 @@
 :root {
   --main-font: "Open Sans", sans-serif;
   --background: #585578;
-  --primary-font-color: #fdf8fc;
-  --secondary-font-color: #7a77aa;
+  --primary-color: #fdf8fc;
+  --secondary-color: #7a77aa;
 }
 
 .App {
   text-align: center;
-  background-color: var(--background);
-  color: var(--primary-font-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   font-family: var(--main-font);
 }
 
