@@ -1,0 +1,11 @@
+.Audio {
+  padding: 0 20px;
+}
+.Audio button {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-size: 30px;
+  color: var(--backround);
+  background-color: transparent;
+  border: 1px solid transparent;
+}
